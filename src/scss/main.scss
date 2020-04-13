@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+html {
+  background-image: url(../img/html.jpeg);
+  background-position: 0px 0px;
+  background-size: contain;
+  background-size: 10%;
+}
+
+
+@mixin bold_text {
+  font-family: 'Gilroyextrabold';
+  font-size: 60pt;
+  color: black;
+}
+
+@mixin light_text {
+  font-family: 'Gilroylight';
+  font-size: 60pt;
+  color: black;
+}
+
+@mixin br {
+  border: 1px solid black
+}
+
+@mixin button {
+  font-family: 'Gilroylight';
+  font-weight: 700;
+  width: 240px;
+  height: 45px;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #000;
+  outline: 0;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+
+//@import "reset.scss";
+@import "reset";
+@import "modules/parth_1_header";
+@import "modules/parth_2_menu";
+@import "modules/parth_3_animation_menu";
+@import "modules/parth_4_first_slider";
+@import "modules/parth_5_second_slider";
+@import "modules/parth_6_third_slider";
+@import "modules/parth_7_drink_menu";
+@import "modules/parth_8_footer";
+
